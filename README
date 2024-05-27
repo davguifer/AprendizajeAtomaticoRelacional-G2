@@ -1,1 +1,24 @@
-README
+GitHub Social Network
+
+Description
+
+Una gran red social de desarrolladores de GitHub que se recopiló de la API pública en junio de 2019. Los nodos son desarrolladores que han destacado al menos 10 repositorios y los bordes son relaciones de seguidores mutuos entre ellos. Las características del vértice se extraen según la ubicación, los repositorios destacados, el empleador y la dirección de correo electrónico. La tarea relacionada con el gráfico es la clasificación de nodos binarios: hay que predecir si el usuario de GitHub es un desarrollador web o de aprendizaje automático, representados como 0 y 1, respectivamente. Esta característica objetivo se derivó del puesto de trabajo de cada usuario. 
+
+Properties
+
+- Directed: No.
+- Node features: Yes.
+- Edge features: No.
+- Node labels: Yes. Binary-labeled.
+- Temporal: No.
+- Nodes: 37,700
+- Edges: 289,003
+- Density: 0.001 
+- Transitvity: 0.013
+
+Possible Tasks
+
+- Binary node classification
+- Link prediction
+- Community detection
+- Network visualization
