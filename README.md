@@ -73,7 +73,8 @@ Analiza el impacto de las diferentes métricas en el rendimiento del modelo de N
 1. Colocar los datos en la carpeta `datos/`.
 2. Ejecutar `Calculo_metricas.ipynb` para generar las métricas.
 3. Ejecutar `Creacion_de_tablas.ipynb` para crear las tablas procesadas.
-4. Analizar los resultados en `Estudio_de_metricas_naive_bayes.ipynb`.
+4. Ejecutar el entrenamiento de los modelos con sus hiperparámetros.
+5. Analizar los resultados.
 
 ### Resultados Esperados
 - Tablas procesadas con atributos relevantes.
